@@ -4,11 +4,22 @@ You must give a short explanation for each answer.
 
 1) Create a reference to an array of integers named "cat".
 
+
+1A) var cat = [1, 2, 3]; This is because it's asking for an array 
+with integers inside named cat so I made just that. 
+
+
 2) What is the output of the following code fragment?
 
 var cat = [2, 4, 6, 8];
 
 console.log(cat[0] + " " + cat[1]);
+
+
+2A) 2 4. This is because value 0 in this array is the number 2 and
+value 1 in this array is the number 4. Therefore the answer would be 2 
+4. 
+
 
 3) What is the output of the following code fragment?
 
@@ -19,14 +30,26 @@ y[1] = 88;
 
 console.log(y[0] + " " + y[1] + " " + y[5]);
 
+
+3A) 34 88 undefined. This is because 0 in the array is 34, 1 in the array is 88, and the value for 5 is undefined in the array called y. 
+
+
 4) What is the output of the following code fragment?
 
 var zip = [7, 3, 4, 1, 9];
 
 console.log(zip[2+1]);
 
+
+4A) The answer is 1. This is because 2+1 is equal to 3. Value 3 on the array is the number 1. Therefore the answer is 1. 
+
+
 5) What is the output of the following code fragment?
 
 var x = [7, 3, 4, , , , , , ];
 
 console.log((x[0] + x[1]) + " " + x[5]);
+
+
+5A) 10 undefined. This is because since the value of x[0] and 
+x[1]  are being added together, ( 3 and 7 ), the sum would naturally be the number 10. Finally since the value for 5 on the array is undefined, naturally the output would also be undefined. 
