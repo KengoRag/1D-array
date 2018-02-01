@@ -15,10 +15,12 @@ function cars(){
 	//Print the array length
 
 	//Return the created array and the array length
+
+	var cars = ["Toyota", "Jeep Wrangler", "Mazda"];
+	console.log(cars);
+	console.log(cars.length);
 	return;
 }
-
-console.log(cars());
 
 /*
 * Demonstrates array declarions by storing parameters into a single array.
@@ -27,6 +29,10 @@ console.log(cars());
 * Return 	An order as a complete sentence represented as a string
 */
 function order(food, drink, dessert){
+
+	var order = [food, drink, dessert];
+	console.log(order);
+	console.log(order.length);
 	//Store the parameters in an array called "order"
 
 	//Print the array named "order"
@@ -34,7 +40,7 @@ function order(food, drink, dessert){
 	//Print the length of the array named "order"
 
 	//Return the order as a complete sentence represented as a string
-	return;
+	return "I'd like a " + food + " a " + drink + " and a " + dessert;
 }
 
 console.log(order("Burger", "root beer", "frosty"));
